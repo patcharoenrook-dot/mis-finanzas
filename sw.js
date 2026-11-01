@@ -2,7 +2,7 @@
    Estrategia «stale-while-revalidate»: responde con lo guardado en caché
    y actualiza la copia en segundo plano.
    Para publicar una versión nueva de la app, sube este número. */
-const VERSION = 2;
+const VERSION = 3;
 const CACHE = 'mis-finanzas-v' + VERSION;
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
